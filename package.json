@@ -1,0 +1,17 @@
+{
+  "name": "banked_test",
+  "version": "1.0.0",
+  "description": "Due to sample going to use configuration files to control env settings, ideally would look at setting up for both default check for environment variables and override with local file.   Need this for times when we could be developing locally.",
+  "main": "index.js",
+  "scripts": {
+    "test:demo": "cross-env NODE_ENV=demo npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
